@@ -1,2 +1,2 @@
-# github-empty-project
-The github empty tempate
+# express json-rpc server sample
+The express json-rpc server sample
