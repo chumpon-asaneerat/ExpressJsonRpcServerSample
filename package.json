@@ -1,0 +1,24 @@
+{
+  "name": "expressjsonrpcserversample",
+  "version": "1.0.0",
+  "description": "JSON RPC Express Server sample",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chumpon-asaneerat/ExpressJsonRpcServerSample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chumpon-asaneerat/ExpressJsonRpcServerSample/issues"
+  },
+  "homepage": "https://github.com/chumpon-asaneerat/ExpressJsonRpcServerSample#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jayson": "^3.3.1"
+  }
+}

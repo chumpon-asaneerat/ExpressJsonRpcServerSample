@@ -1,0 +1,30 @@
+### cats
+POST http://localhost:5000/cats
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "method": "speak",
+    "params": [], 
+    "id": 1
+}
+
+### dogs
+POST http://localhost:5000/dogs
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "method": "speak",
+    "id": 1
+}
+
+### dogs invalid api
+POST http://localhost:5000/dogs
+Content-Type: application/json
+
+{
+    "jsonrpc": "2.0",
+    "method": "speak2",
+    "id": 1
+}
